@@ -1,0 +1,16 @@
+.square {
+	width: 33.33%;
+	height: 33.33%;
+	border: 1px solid black;
+	position: relative;
+	&.isActive {
+		background: rgb(244, 212, 212);
+	}
+
+	&.hovering {
+		background: blue;
+	}
+	&.active {
+		background: rgb(255, 0, 0);
+	}
+}
