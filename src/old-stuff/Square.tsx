@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDrop } from 'react-dnd';
 import Emoji from './Emoji';
 import './Square.scss';
-import TileType from './enums/tileType';
+import TileType from '../enums/tileType';
 
 interface SquareProps {
 	index: number;
